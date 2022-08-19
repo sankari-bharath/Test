@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: EPG.EP_Website.AppTest
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.22 s - in EPG.EP_Website.AppTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.31 s <<< FAILURE! - in EPG.EP_Website.AppTest
+shouldAnswerWithTrue(EPG.EP_Website.AppTest)  Time elapsed: 15.011 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'HQRITD48N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e47b8e3cd465731284b06f12c78628a, findElement {using=xpath, value=//a[@class='ThemeGrid_Width1']//img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SANKAR~1.DEV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61029/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e47b8e3cd465731284b06f12c78628a
+	at EPG.EP_Website.AppTest.shouldAnswerWithTrue(AppTest.java:41)
+
