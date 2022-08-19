@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-19T14:58:54 GST" name="Surefire suite" finished-at="2022-08-19T14:59:09 GST" duration-ms="15035">
+  <suite started-at="2022-08-19T15:11:55 GST" name="Surefire suite" finished-at="2022-08-19T15:12:13 GST" duration-ms="18184">
     <groups>
     </groups>
-    <test started-at="2022-08-19T14:58:54 GST" name="Surefire test" finished-at="2022-08-19T14:59:09 GST" duration-ms="15035">
+    <test started-at="2022-08-19T15:11:55 GST" name="Surefire test" finished-at="2022-08-19T15:12:13 GST" duration-ms="18184">
       <class name="EPG.EP_Website.AppTest">
-        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:EPG.EP_Website.AppTest@75c072cb]" started-at="2022-08-19T14:58:54 GST" name="shouldAnswerWithTrue" finished-at="2022-08-19T14:59:09 GST" duration-ms="15003" status="FAIL">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:EPG.EP_Website.AppTest@7d68ef40]" started-at="2022-08-19T15:11:55 GST" name="shouldAnswerWithTrue" finished-at="2022-08-19T15:12:13 GST" duration-ms="18153" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[chrome not reachable
@@ -15,9 +15,9 @@
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'HQRITD48N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1e47b8e3cd465731284b06f12c78628a, findElement {using=xpath, value=//a[@class='ThemeGrid_Width1']//img}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SANKAR~1.DEV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61029/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e47b8e3cd465731284b06f12c78628a]]>
+Command: [1de0208fce6dbf6e5a0bfcf7c09831ab, findElement {using=xpath, value=//button[@class='btn btn-primary OSFillParent']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SANKAR~1.DEV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49991}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49991/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1de0208fce6dbf6e5a0bfcf7c09831ab]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
@@ -25,9 +25,9 @@ Session ID: 1e47b8e3cd465731284b06f12c78628a]]>
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'HQRITD48N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1e47b8e3cd465731284b06f12c78628a, findElement {using=xpath, value=//a[@class='ThemeGrid_Width1']//img}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SANKAR~1.DEV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61029/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e47b8e3cd465731284b06f12c78628a
+Command: [1de0208fce6dbf6e5a0bfcf7c09831ab, findElement {using=xpath, value=//button[@class='btn btn-primary OSFillParent']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SANKAR~1.DEV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49991}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49991/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1de0208fce6dbf6e5a0bfcf7c09831ab
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -42,7 +42,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at EPG.EP_Website.AppTest.shouldAnswerWithTrue(AppTest.java:41)
+at EPG.EP_Website.AppTest.shouldAnswerWithTrue(AppTest.java:44)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
