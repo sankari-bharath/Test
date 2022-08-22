@@ -38,8 +38,8 @@ public class AppTest
 		WebElement ads = driver.findElement(By.xpath("//a[@class='ThemeGrid_Width1']//img"));
 		ads.click();
 		Thread.sleep(60000);
-		WebElement coocking = driver.findElement(By.xpath("//button[@class='btn btn-primary OSFillParent']"));
-		coocking.click();
+		//WebElement coocking = driver.findElement(By.xpath("//button[@class='btn btn-primary OSFillParent']"));
+		//coocking.click();
 		Thread.sleep(30000);
 		WebElement login = driver.findElement(By.xpath("//div[@class='LoginLink']"));
 		login.click();
