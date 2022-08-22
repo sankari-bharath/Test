@@ -7,57 +7,48 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.testng.annotations.Test;
 
-/**
- * Unit test for simple App.
- */
+
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     * @throws InterruptedException 
-     */
-    @Test
-    public void shouldAnswerWithTrue() throws InterruptedException
-    {
-  
+	
+	@Test
+	public void shouldAnswerWithTrue() throws InterruptedException
+	{
+		
+		WebDriverManager.chromedriver().setup();
+		ChromeOptions customChrome = new ChromeOptions();
+		customChrome.setAcceptInsecureCerts(true);
+		customChrome.getBrowserVersion();
+		customChrome.getPlatformName();
+		//customChrome.wait(3000);
+		WebDriver driver = new ChromeDriver(customChrome);
 
-    			//public static void main(String[] args) throws InterruptedException {
+		driver.get("https://emiratespost.ae/Portal/Home?locale=en-us");
 
+		System.out.println(driver.getTitle());
 
-    		//	System.setProperty("webdriver.chrome.driver", "./driver\\chromedriver.exe");
-    	
-    	WebDriverManager.chromedriver().setup();
-    	
+		System.out.println(driver.getCurrentUrl());
 
-    			WebDriver driver = new ChromeDriver();
+		Thread.sleep(3000);
+		WebElement ads = driver.findElement(By.xpath("//a[@class='ThemeGrid_Width1']//img"));
+		ads.click();
+		Thread.sleep(3000);
+		WebElement coocking = driver.findElement(By.xpath("//button[@class='btn btn-primary OSFillParent']"));
+		coocking.click();
+		
+		WebElement login = driver.findElement(By.xpath("//div[@class='LoginLink']"));
+		login.click();
+		//driver.close();
 
+		//driver.quit();
 
-    		driver.get("https://emiratespost.ae/Portal/Home?locale=en-us");
-
-    			System.out.println(driver.getTitle());
-
-    			System.out.println(driver.getCurrentUrl());
-    			
-    			Thread.sleep(3000);
-    			WebElement ads = driver.findElement(By.xpath("//a[@class='ThemeGrid_Width1']//img"));
-    			ads.click();
-    			Thread.sleep(3000);
-    			WebElement coocking = driver.findElement(By.xpath("//button[@class='btn btn-primary OSFillParent']"));
-    			coocking.click();
-    			Thread.sleep(3000);
-    			WebElement login = driver.findElement(By.xpath("//div[@class='LoginLink']"));
-    			login.click();
-    			//driver.close();
-
-    			//driver.quit();
-
-
-
-    			
-
-
-    }
+	}
+	
 }
+
+	
