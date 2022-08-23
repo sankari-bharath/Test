@@ -19,8 +19,8 @@ public class AppTest
 	@Test
 	public void shouldAnswerWithTrue() throws InterruptedException
 	{
-		
-		WebDriverManager.chromedriver().setup();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\sankari.devi\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		//WebDriverManager.chromedriver().setup();
 		ChromeOptions customChrome = new ChromeOptions();
 		customChrome.setAcceptInsecureCerts(true);
 		customChrome.getBrowserVersion();
