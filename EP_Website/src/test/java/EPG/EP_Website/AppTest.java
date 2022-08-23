@@ -28,7 +28,7 @@ public class AppTest
 		//customChrome.wait(3000);
 		WebDriver driver = new ChromeDriver(customChrome);
 
-		driver.get("https://emiratespost.ae/Portal/Home?locale=en-us");
+		driver.get("https://beta.emiratespost.ae/Portal/Home?locale=en-us");
 
 		System.out.println(driver.getTitle());
 
